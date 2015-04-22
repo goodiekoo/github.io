@@ -30,10 +30,35 @@
     		border: 2px solid #0000ff;
     	}
     	
-    	#myinfo
+    	#myinfo 
     	{
-    		background-color: #0033ff;
+    		background-color: #3033ff;
     		border: 2px solid #0000ff;
+    		text-align: left;
+    	}
+    	
+    	#myinfo > ol
+    	{
+    		margin: 30px 0px 30px 130px;
+    		list-style: square;
+    	}
+    	
+    	#myinfo > ol > li
+    	{
+    		padding: 5px
+    	}
+    	
+    	#myinfo ol > li > span.label
+    	{
+    		text-decoration: underline;
+    		color: #ffffff;
+    		font-family: "맑은고딕";
+    	}
+    	#myinfo ol > li > span.contants
+    	{
+    		text-decoration: underline;
+    		color: #00ffff;
+    		font-family: "맑은고딕";
     	}
     	
     	#myphoto > img
@@ -56,6 +81,24 @@
 			<img src="./images/dog.jpg" alt="dogeloper" title="dogeloper" >
 		</div>
 	<div id="myinfo">
+		<ol>
+			<li>
+				<span class="label">이름</span>
+				<span class="contants">Jieun Koo</span>
+			</li>
+			<li>
+				<span class="label">이메일</span>
+				<span class="contants">goodiekoo@e-mirim.hs.kr</span>
+			</li>
+			<li>
+				<span class="label">취미</span>
+				<span class="contants">drawing</span>
+			</li>
+			<li>
+				<span class="label">선호하는 언어</span>
+				<span class="contants">c++, c#</span>
+			</li>
+		</ol>
 	</div>
 	</div>
 	
