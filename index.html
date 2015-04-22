@@ -5,7 +5,7 @@
     <title>Goodie Koo</title>
     <script src="./main.js"></script>
     <style>
-    
+    	*{margin: 0px; padding: 0px;}
     	.greeting
     	{
     	font-size:30px;
@@ -15,19 +15,49 @@
     	height: 300px;
     	margin: auto;
     	}
+    	.container
+    	{
+    		width:890px;
+    		margin: 10px auto 10px auto;
+    		background-color: #666666;
+    		padding: 20px;
+    		text-align: center;
+    	}
     	
-    	img
+    	#myphoto
+    	{
+    		background-color: #00ff33;
+    		border: 2px solid #0000ff;
+    	}
+    	
+    	#myinfo
+    	{
+    		background-color: #0033ff;
+    		border: 2px solid #0000ff;
+    	}
+    	
+    	#myphoto > img
     	{
     		width:640px;
 			border-top:4px solid #666666;  
 			border-right:4px dashed #666666;  
 			border-left:4px dotted #666666;  
 			border-bottom:4px double #666666;  
+			margin: 30px;
     	}
+    	
+    	
     </style>
 </head>
 <body>
 	<div class="greeting">안녕 세상아!</div>
-	<img src="./images/dog.jpg" alt="dogeloper" title="dogeloper" >
-</body>
+	<div class="container">
+		<div id="myphoto">
+			<img src="./images/dog.jpg" alt="dogeloper" title="dogeloper" >
+		</div>
+	<div id="myinfo">
+	</div>
+	</div>
+	
+	</body>
 </html>
